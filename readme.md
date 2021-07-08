@@ -1,5 +1,6 @@
-# julia-hordewave
+![screenshot](screenshot.png)
 
+# julia-hordewave
 
 a minimal port from my javascript version
 
@@ -21,5 +22,3 @@ a minimal port from my javascript version
 >    julia> using GameOne
 >
 >    julia> rungame("C:\\code21-julia-gamezero\\hordewave\\Main.jl")
-
-![screenshot](screenshot.png)
