@@ -1,0 +1,1 @@
+set PATH=%PATH%;C:\Program Files\Julia-1.6.1\bin\
