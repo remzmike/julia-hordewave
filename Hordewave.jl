@@ -230,7 +230,7 @@ Map = TMap(3200, 3200, 32, Vector{TCell{TEntity}}(undef, 100*100), 100, 100)
 Camera = TCamera(640, 480, 40, 30, TPointI(0, 0))
 Frame = TFrame(0, 0, 0, 0)
 
-Entities = Vector{Union{TEntity, Nothing}}(nothing, 10000)
+Entities = Vector{Union{TEntity, Nothing}}(nothing, 1000)
 Bullets = Vector{Union{TBullet, Nothing}}(nothing, Config["engine.bullet_pool_initial_size"])
 #ParticleSystems = Array{TParticleSystems}(undef, 0)
 
