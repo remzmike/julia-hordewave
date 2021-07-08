@@ -1,4 +1,4 @@
 name = "GameOne"
 uuid = "d2057025-b457-4c24-92e7-655fb27a58f2"
-authors = ["remzmike <remzmike@gmail.com>"]
+authors = ["remzmike <foo@example.com>"]
 version = "0.1.0"
