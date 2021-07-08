@@ -362,10 +362,10 @@ function init()
 end
 
 function world_to_cell_xy(world_xy::TPointF)
-    @assert world_xy.x >= 0
-    @assert world_xy.y >= 0
-    @assert world_xy.x < Map.width
-    @assert world_xy.y < Map.height
+    #@assert world_xy.x >= 0
+    #@assert world_xy.y >= 0
+    #@assert world_xy.x < Map.width
+    #@assert world_xy.y < Map.height
     return TPointI(
         trunc(Int64, world_xy.x / Map.cell_size),
         trunc(Int64, world_xy.y / Map.cell_size)
