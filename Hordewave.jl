@@ -199,8 +199,8 @@ Config = Dict(
     "engine.bullet_pool_initial_size" => 200,
     "flags.clip_game_window" => true,
     "flags.draw" => true,
-    "flags.draw_bullet_debug" => false,
-    "flags.draw_bullet_debug2" => false,
+    "flags.draw_bullet_debug" => true,
+    "flags.draw_bullet_debug2" => true,
     "flags.draw_entities_debug" => true,
     "flags.draw_player_debug_line" => false,
     "flags.draw_player_debug_walk" => false,
@@ -217,6 +217,12 @@ if (true)
     Config["player.attack_cooldown"] = 1
     Config["player.weapon.bullet_health"] = 1
     Config["player.weapon.bullet_speed"] = 12
+    if (false) # sicko mode
+        Config["player.speed"] = 6
+        Config["player.attack_cooldown"] = 0
+        Config["player.weapon.bullet_damage"] = 20
+        Config["player.weapon.bullet_health"] = 20
+    end
 end
 
 Map = TMap(3200, 3200, 32, Vector{TCell{TEntity}}(undef, 100*100), 100, 100)
